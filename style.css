@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Nerko One', cursive;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right, #f00, #ff00ff, blue);
+}
+ 
+input[type = text]{
+    width: 40%;
+    padding: 5px 1px;
+    border-radius: 45px;
+}
+
+
+.player2_log{
+    margin-top: 20px;
+    background: lime;
+    border: 7px solid black;
+    border-style: inset;
+    padding-bottom: 10px;
+    width: 700px;
+    padding: 30px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.player1_log{
+    margin-top: 20px;
+    background: lime;
+    border: 7px solid black;
+    border-style: inset;
+    padding-bottom: 10px;
+    width: 700px;
+    padding: 30px;
+    margin-left: 250px;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+margin-left: 20em;
+}
+
+#number1,#number2{
+margin-left: 23em;
+}
+
+
